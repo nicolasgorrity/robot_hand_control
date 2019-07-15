@@ -1,11 +1,13 @@
-# Description
+# robot_hand_control
+
+## Description
 This project aims to control a Khepera IV robot thanks to hand gesture detected from a camera.
 The camera is on a control computer that is connected to the robot to make it execute the desired commands.
 All the image acquisition chain, command prediction and command control are implemented in ROS packages.
 
 This project was tested on Ubuntu 18.04 with ROS melodic.
 
-# Installation
+## Installation
 Before installing this project, make sure [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) is correctly installed on your machine.
 
 ```
@@ -19,7 +21,7 @@ Then source ROS to the current workspace
 source devel/setup.bash
 ```
 
-# Use
+## Use
 In a terminal, run
 ```
 roscore
