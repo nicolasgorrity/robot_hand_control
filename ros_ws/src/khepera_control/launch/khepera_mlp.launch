@@ -1,0 +1,18 @@
+<launch>
+
+    <node pkg="khepera_control" type="khepera_control_node" name="khepera_control_node" output="screen">
+    </node>
+
+    <node pkg="khepera_classification" type="khepera_classification_mlp_predict_node" name="khepera_classification_mlp_predict_node" output="screen">
+    </node>
+
+    <node pkg="khepera_image" type="khepera_image_node" name="khepera_image_node" output="screen">
+    </node>
+
+    <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_reconfigure" output="screen">
+    </node>
+
+    <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" output="screen">
+    </node>
+
+</launch>

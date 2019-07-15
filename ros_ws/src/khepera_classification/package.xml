@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>khepera_classification</name>
+    <version>0.0.0</version>
+    <description>The khepera_classification package</description>
+
+    <maintainer email="nicolas.gorrity@supelec.fr">Nicolas Gorrity</maintainer>
+    <maintainer email="leandro.cavalcantisilva@supelec.fr">Leandro Cavalcanti Silva</maintainer>
+    <license>BSD</license>
+    <url type="website">http://ims.metz.supelec.fr/wiki/Depot/Gutzwiller/SIR/TL/Robots/enonce.pdf</url>
+
+    <author email="nicolas.gorrity@supelec.fr">Nicolas Gorrity</author>
+    <author email="leandro.cavalcantisilva@supelec.fr">Leandro Cavalcanti Silva</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>dynamic_reconfigure</build_depend>
+    <build_depend>message_generation</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>roslib</build_depend>
+    <build_export_depend>dynamic_reconfigure</build_export_depend>
+    <build_export_depend>roscpp</build_export_depend>
+    <build_export_depend>std_msgs</build_export_depend>
+    <build_export_depend>message_generation</build_export_depend>
+    <build_export_depend>roslib</build_export_depend>
+    <exec_depend>dynamic_reconfigure</exec_depend>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>message_runtime</exec_depend>
+    <exec_depend>message_generation</exec_depend>
+    <exec_depend>roslib</exec_depend>
+
+    <doc_depend>doxygen</doc_depend>
+</package>
